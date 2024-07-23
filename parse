@@ -1,0 +1,16 @@
+I have a resume in text format that I would like to convert into JSON. The JSON should include the following keys:
+
+"name"
+"contact_information" (with nested keys for "email", "phone", "address")
+"summary"
+"experience" (an array of objects with keys for "company", "position", "location", "start_date", "end_date", "responsibilities")
+"education" (an array of objects with keys for "institution", "degree", "field_of_study", "start_date", "end_date", "location")
+"skills" (an array of strings)
+"projects" (an array of objects with keys for "name", "description", "technologies_used")
+"certifications" (an array of objects with keys for "name", "issuing_organization", "issue_date", "expiration_date")
+"languages" (an array of strings)
+Here is the resume text:
+
+[Insert resume text here]
+
+Please parse this resume into the specified JSON format.
